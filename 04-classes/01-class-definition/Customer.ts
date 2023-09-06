@@ -10,7 +10,7 @@ class Customer {
 
 // let's create an instance 
 let customer = new Customer('Tutku', 'Ince');
-customer.firstName = 'Tutku';
-customer.lastName = 'Ince';
+// customer.firstName = 'Tutku';
+// customer.lastName = 'Ince';
 
 console.log(customer);
