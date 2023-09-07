@@ -1,11 +1,6 @@
 class Customer {
-    private _firstName: string;
-    private _lastName: string;
 
-    constructor(firstName: string, lastName: string) {
-        this._firstName = firstName;
-        this._lastName = lastName;
-    }
+    constructor(private _firstName: string, private _lastName: string) {}
 
     // :string => return type
     public get firstName(): string {
@@ -27,8 +22,6 @@ class Customer {
 
 // let's create an instance 
 let customer = new Customer('Tutku', 'Ince');
-// customer.firstName = 'Tutku';
-// customer.lastName = 'Ince';
 
 console.log(customer.firstName);
 console.log(customer.lastName);
