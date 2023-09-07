@@ -1,4 +1,4 @@
-class Customer {
+export class Customer {
 
     constructor(private _firstName: string, private _lastName: string) {}
 
@@ -20,8 +20,3 @@ class Customer {
     }
 }
 
-// let's create an instance 
-let customer = new Customer('Tutku', 'Ince');
-
-console.log(customer.firstName);
-console.log(customer.lastName);
